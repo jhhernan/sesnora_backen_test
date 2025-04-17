@@ -114,7 +114,7 @@ async function checkNoDataAlarms() {
 
 // bot.sendMessage('5290218900', 'Hello, this is a message from your Telegram bot.');
 
-  console.log('Checking if no data for any sensor');
+  console.log('Checking if no data for any sensor...');
   const db = getConnection();
 
   const [sensors] = await db.query(`
